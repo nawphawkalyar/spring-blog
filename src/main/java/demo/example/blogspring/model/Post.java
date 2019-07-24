@@ -9,7 +9,6 @@ import java.time.LocalDate;
 
 @Entity
 @Data
-
 public class Post implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

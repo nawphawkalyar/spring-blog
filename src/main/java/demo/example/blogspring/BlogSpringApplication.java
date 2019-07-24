@@ -28,7 +28,7 @@ public class BlogSpringApplication {
     @Bean @Profile("dev")
     public CommandLineRunner runner(AuthorRepository authorRepository, PostRepository postRepository){
         return args->{
-            Author author1=new Author("THaw Thaw", LocalDate.of(2000,3,27),"Herror", Gender.MALE);
+            Author author1=new Author("Thaw Thaw", LocalDate.of(2000,3,27),"Herror", Gender.MALE);
             Post p1=new Post("afad","sjdjjfkffkkfk",LocalDate.now());
             Post p2=new Post("afad","sjdjjfkffkkfk",LocalDate.now());
             Post p3=new Post("afad","sjdjjfkffkkfk",LocalDate.now());
