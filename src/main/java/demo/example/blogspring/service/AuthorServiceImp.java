@@ -2,9 +2,10 @@ package demo.example.blogspring.service;
 
 import demo.example.blogspring.model.Author;
 import demo.example.blogspring.repository.AuthorRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class AuthorServiceImp implements AuthorService {
 
     private AuthorRepository authorRepository;
